@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1592808288 "NeutronDetection.tex" "build/NeutronDetection.pdf" "NeutronDetection" 1592808288
+  "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
+  "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1518362265 4129592 dfa94e54a563547717c3830ea80aa8ee ""
+  "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
+  "NeutronDetection.tex" 1592808288 184 a69a27e7f57ad0d616e2904adb11a0e8 ""
+  "build/NeutronDetection.aux" 1592806336 259 af6b8748c3105170100e1a631bc21059 ""
+  "chap/NeutDet/NeutronDetectors.tex" 0 -1 0 ""
+  (generated)
+  "build/.aux"
+  "build/NeutronDetection.aux"
+  "build/NeutronDetection.pdf"
+  "build/N.aux"
+  "build/NeutronDetection.log"

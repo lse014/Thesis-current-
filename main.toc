@@ -1,0 +1,20 @@
+\contentsline {chapter}{\numberline {1}Neutron detection}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Neutron Detectors}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Basic Particle Detectors}{1}{subsection.1.1.1}
+\contentsline {paragraph}{The Gas Detector}{1}{paragraph*.2}
+\contentsline {paragraph}{The Scintillation Detector}{2}{paragraph*.3}
+\contentsline {paragraph}{The Semiconductor Detector}{2}{paragraph*.4}
+\contentsline {subsection}{\numberline {1.1.2}Reactions of Neutron Detection}{2}{subsection.1.1.2}
+\contentsline {subsubsection}{Neutron Energies Dependence}{2}{subsubsection*.5}
+\contentsline {subsubsection}{Reaction Characteristics}{2}{subsubsection*.6}
+\contentsline {subsubsection}{Popular reactions}{3}{subsubsection*.7}
+\contentsline {paragraph}{TEST}{4}{paragraph*.8}
+\contentsline {section}{\numberline {1.2}Gadolinium: as a Neutron Converter Material}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Reaction Energy Spectrum}{5}{subsection.1.2.1}
+\contentsline {subsubsection}{Prompt Gamma-rays}{6}{subsubsection*.10}
+\contentsline {subsubsection}{Internal Conversion Electrons}{6}{subsubsection*.11}
+\contentsline {chapter}{\numberline {2}Semiconductors}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Energy Band Diagram}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Doped semiconductors}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Pn-junction diode}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Reverse Bias, Charge Collection and Pulse Signal?}{9}{subsection.2.3.1}
