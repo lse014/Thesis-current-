@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  22 JUN 2020 08:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  7 JUL 2020 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -965,7 +965,7 @@ Package caption Info: sidecap package is loaded.
 \openout2 = `macros.aux'.
 
 No file macros.tex.
-(build/main.aux (./chap/NeutDet/NeutronDetection.aux))
+(build/main.aux (./chap/Introduction/Introduction.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
@@ -1117,8 +1117,8 @@ Non-PDF special ignored!
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./uib-emblem-svart.pdf>]
-./main.tex:202: Undefined control sequence.
-l.202 \ifDownscaledFinalDoc
+./main.tex:204: Undefined control sequence.
+l.204 \ifDownscaledFinalDoc
                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1126,10 +1126,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:203: Undefined control sequence.
+./main.tex:205: Undefined control sequence.
 <argument> \TextSize 
                      
-l.203 	\fontsize{\TextSize}{\BaseLineSkip}
+l.205 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1137,19 +1137,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:203: Missing number, treated as zero.
+./main.tex:205: Missing number, treated as zero.
 <to be read again> 
                    p
-l.203 	\fontsize{\TextSize}{\BaseLineSkip}
+l.205 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:203: Undefined control sequence.
+./main.tex:205: Undefined control sequence.
 <argument> \BaseLineSkip 
                          
-l.203 	\fontsize{\TextSize}{\BaseLineSkip}
+l.205 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1157,30 +1157,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:203: Missing number, treated as zero.
+./main.tex:205: Missing number, treated as zero.
 <to be read again> 
                    p
-l.203 	\fontsize{\TextSize}{\BaseLineSkip}
+l.205 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:204: Improper `at' size (0.0pt), replaced by 10pt.
+./main.tex:206: Improper `at' size (0.0pt), replaced by 10pt.
 <to be read again> 
                    relax 
-l.204 	\selectfont
+l.206 	\selectfont
                   
 I can only handle fonts at positive sizes that are
 less than 2048pt, so I've changed what you said to 10pt.
 
-./main.tex:205: Extra \fi.
-l.205 \fi
+./main.tex:207: Extra \fi.
+l.207 \fi
          
 I'm ignoring this; it doesn't match any \if.
 
-./main.tex:208: Undefined control sequence.
-l.208 \ifDraft
+./main.tex:210: Undefined control sequence.
+l.210 \ifDraft
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1188,21 +1188,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:211: Extra \fi.
-l.211 \fi
+./main.tex:213: Extra \fi.
+l.213 \fi
          
 I'm ignoring this; it doesn't match any \if.
 
-LaTeX Font Info:    Try loading font information for T1+phv on input line 218.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 220.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 218.
+(Font)              scaled to size 11.39996pt on input line 220.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 218.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 218.
+(Font)              scaled to size 11.39996pt on input line 220.
  [2
 
 ] (build/main.toc)
@@ -1214,27 +1214,27 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 ] [2
 
 ]
-./main.tex:239: I can't write on file `chap/NeutDet/NeutronDetection.aux'.
+./main.tex:240: I can't write on file `chap/Introduction/Introduction.aux'.
 \@include ...\immediate \openout \@partaux #1.aux 
                                                   \immediate \write \@partau...
-l.239 \include{chap/NeutDet/NeutronDetection}
-                                             
+l.240 \include{chap/Introduction/Introduction}
+                                              
 (Press Enter to retry, or Control-D to exit; default file extension is `.tex')
 Please type another output file name
-./main.tex:239: Emergency stop.
+./main.tex:240: Emergency stop.
 \@include ...\immediate \openout \@partaux #1.aux 
                                                   \immediate \write \@partau...
-l.239 \include{chap/NeutDet/NeutronDetection}
-                                             
+l.240 \include{chap/Introduction/Introduction}
+                                              
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
- 12677 strings out of 492995
- 185644 string characters out of 6132704
- 292180 words of memory out of 5000000
- 15989 multiletter control sequences out of 15000+600000
+ 12676 strings out of 492995
+ 185639 string characters out of 6132704
+ 292104 words of memory out of 5000000
+ 15988 multiletter control sequences out of 15000+600000
  36245 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,43p,260b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-./main.tex:239:  ==> Fatal error occurred, no output PDF file produced!
+./main.tex:240:  ==> Fatal error occurred, no output PDF file produced!

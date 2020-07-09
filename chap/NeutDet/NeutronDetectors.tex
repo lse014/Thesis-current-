@@ -1,39 +1,46 @@
 %\label{chap:NeutronDetectors}
 %%----------------------------------------------------------------------
 %%----------------------------------------------------------------------
-\section{Neutron Detectors}
+
 Neutrons are more difficult to detected than other types of radiation. A general particle detector has a sensitive volume and when charged particles travers it they deposit some or all of their energy by ionization. Neutrons are neutral particles and do not interact electromagnetically, thus are not capable of direct ionization. A neutron reacts by hadronic forces, also known as the residual strong force. The hadronic force is a much stronger force than the electromagnetic but has a much shorter interaction range (10$^{-15}$m).  This force occurs between hadrons, for instance between a neutron and nucleons of an atom. So, while a neutron may not directly deposit its energy through ionization it can induce a nuclear reaction.  Secondary charged particles may occur from such a reaction and in turn transfer energy to the detectors sensitive volume. Neutrons can therefore be detected by combining a neutron conversion material with a general particle/radiation detector.
 In principle any particle detector can be turned into a neutron detector.
 A breif introduction to the most common particle detectors is in place. %?? change
 
-\subsection{Basic Particle Detectors}
+...gadolinium...
+
+\section{Basic Particle Detectors}
 One of the major components of a particle detector is the sensitive volume. Incoming radiation interacts with the sensitive volume and one way or another create electrical charges responsible for a detector signal. In gas detectors this volume is, intuitively enough, filled with gas. In semiconductors a solid material fills the volume. Scintillators may incorporate material of either gas, liquid or solids, depending on detector application and requirements. Reacting with the sensitive volume, radiation may produce charge carries directly, like in gas detectors (ion pairs) and semiconductors (electron-hole pairs), or cause a process which subsequently produce charge carriers, like in scintillators (photoelectrons).
 
-\paragraph{The Gas Detector} \newline
+%%\paragraph{The Gas Detector} \newline
+\subsection{The Gas Detector}
 The basic components of a gas detector are the gas-filled chamber (i.e. sensitive volume) and electrodes (cathode and anode, i.e. the charge collectors). In general, the outer chamber-wall (cathode) is most often spherical or cylindrical and encompasses the, usually rod-shaped, anode.  A voltage is applied to the collector plates and gives rise to an electric field between the two.
 When an energetic particle enters the gas-filled chamber the gas molecules are ionized. With enough energy the incoming particles can tear an electron from its atom and produce an ion pair. The electric field between the collector plates attract the newly created charges, the positive ion to the cathode (-) and electron to the anode (+).
 A charged particle in an electric field experiences a force and the magnitude of its acceleration depends on the particles mass. The electrons significantly smaller mass (??) causes it to accelerate at a considerably larger rate than the heavy ion and is thus the first of the two to be collected. The speed at which charge carriers travels depends on the chamber pressure and the applied field strength.
 
-\paragraph{The Scintillation Detector} \newline
+%\paragraph{The Scintillation Detector} \newline
+\subsection{The Scintillation Detector}
+...
+%\paragraph{The Semiconductor Detector} \newline
+\subsection{The Semiconductor Detector}
+...
 
-\paragraph{The Semiconductor Detector} \newline
 
 These detectors are initially oblivious to non-ionizing radiation such as neutrons. However, by incorporating a converter material to the design it allows for indirect detection thereof.
 
-\subsection{Reactions of Neutron Detection}
+\section{Reactions of Neutron Detection}
 
-\subsubsection{Neutron Energies Dependence}
+\subsection{Neutron Energies Dependence}
 Neutrons reaction probability with matter is heavily dependent on its energy and are categorized into four regions. Slow neutrons have energies 0-0.4 MeV and their reaction probability drop inversely with their speed. The intermediate neutron energy range is the interval 0.4-200keV. Many reactions have resonances in this interval, and it is therefore also known as the resonance region. Most neutrons, however, are created with a much larger energy and are labeled as fast neutrons, 200 keV-20 MeV. Lastly, neutrons energies beyond 20MeV are known as high energy neutrons. High neutrons exceed the scope of this thesis and will not be discussed any further.
 Neutron reaction cross-section is much higher in the slow and intermediate domain than the fast and high domain. As the neutron speed v increases from slow to intermediate, many reaction probabilities decrease proportionally to 1/v. Once the energy reaches the domain of intermediate neutrons a number of reactions experience resonance. Moving into the fast neutron region, the likelihood of nuclear reactions lessens, and the probability of elastic scattering takes over.
 Elastic scattering is widely used in detection of fast neutrons. The interaction produces no secondary particles, but rather results in a recoil nucleus which is responsible for ionizing the detector medium. Fast neutrons have a tendency to scatter more easily of atoms, especially those with a low atomic number such as hydrogen (Ref. on elastic scattering of hydrogen?).
 
-\subsubsection{Reaction Characteristics}
+\subsection{Reaction Characteristics}
 To ensure good quality neutron signals the conversion material must meet certain standards. First and foremost, it is essential that the material possesses a high probability of neutron interaction. The ideal situation would be 100\% neutron detection, no neutrons going unseen. Nevertheless, this is usually not the case since some neutrons pass through the conversion material unaffected or react in other non-signal generating ways. High neutron reaction probability is therefore an essential characteristic of the conversion material to ensure a high detection efficiency.
 
 Another important trait of a neutron detector is gamma discrimination. Often, neutrons are accompanied by gamma-radiation, to which neutron detectors have a similar response. This makes the identification of neutrons somewhat more difficult. Reactions with a high Q-value yield highly energetic particles and produce high signals. In comparison, energy deposited by gamma-rays are much lower. Incorporating conversion materials based on high Q reactions is one way to better distinguishing neutron from gamma signals. In intense gamma-fields, however, the accumulation of photon signals can become a problem.
 
 
-\subsubsection{Popular reactions}
+\subsection{Popular reactions}
 Popular nuclear reactions used to convert a neutron into signal inducing radiation are exoergic reactions and radiative capture. Typical nuclear reactions used in neutron detection are B-10(n,a)Li-7, Li-6(n,a)T, He-3(n,p)T and Gd(n,γ)Gd*. The first three classified as exoergic reactions and the last one as radiative capture.
 An exoergic reaction is a nuclear reaction with a positive Q-value. This means the reaction products have a higher kinetic energy than the incident particle. These reactions commonly exhibit a high reaction probability for thermal neutrons and produce high energy and easily detectable particles.
 Radiative capture is a reaction in which an incident neutron is absorbed by the target nucleus and forms a compound nucleus that decays to its ground state through radiative decay. The probability of absorption is large for thermal neutrons in heavy material and the probability of competing reactions, like elastic scattering, is small. \newline
@@ -66,4 +73,4 @@ Their reaction equations are:
 Not only do the capture reactions possess a high probability for thermal neutrons, they also yield a significant amount of energy. This energy is released in the form of gamma-transitions and gives rise to prompt gamma-rays and electrons, i.e. signal generating radiation.
 
 
-\paragraph{TEST}
+%\paragraph{TEST}

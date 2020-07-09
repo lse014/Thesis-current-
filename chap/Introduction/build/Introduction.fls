@@ -1,0 +1,6 @@
+PWD /Users/lena/Desktop/Thesis (Latex)/chap/Introduction
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT Introduction.tex
+OUTPUT build/Introduction.log

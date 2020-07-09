@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1593259123 "Charged.tex" "build/Charged.pdf" "Charged" 1593259124
+  "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
+  "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1518362265 4129592 dfa94e54a563547717c3830ea80aa8ee ""
+  "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
+  "Charged.tex" 1593259123 2981 ab9232ca99cea70ee5ac809de242906b ""
+  "build/Charged.aux" 1593243315 8 a94a2480d3289e625eea47cd1b285758 ""
+  (generated)
+  "build/Charged.log"
+  "build/Charged.pdf"

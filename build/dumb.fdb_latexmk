@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1593243372 "dumb.tex" "build/dumb.pdf" "dumb" 1593243380
+  "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
+  "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
+  "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1518362265 4129592 dfa94e54a563547717c3830ea80aa8ee ""
+  "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
+  "build/dumb.aux" 1593243372 8 a94a2480d3289e625eea47cd1b285758 ""
+  "dumb.tex" 1593243371 46841 3ff2d2c03dd218b41ed39fb855864743 ""
+  (generated)
+  "build/dumb.pdf"
+  "build/dumb.log"

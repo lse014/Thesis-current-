@@ -1,20 +1,32 @@
-\contentsline {chapter}{\numberline {1}Neutron detection}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Neutron Detectors}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Basic Particle Detectors}{1}{subsection.1.1.1}
-\contentsline {paragraph}{The Gas Detector}{1}{paragraph*.2}
-\contentsline {paragraph}{The Scintillation Detector}{2}{paragraph*.3}
-\contentsline {paragraph}{The Semiconductor Detector}{2}{paragraph*.4}
-\contentsline {subsection}{\numberline {1.1.2}Reactions of Neutron Detection}{2}{subsection.1.1.2}
-\contentsline {subsubsection}{Neutron Energies Dependence}{2}{subsubsection*.5}
-\contentsline {subsubsection}{Reaction Characteristics}{2}{subsubsection*.6}
-\contentsline {subsubsection}{Popular reactions}{3}{subsubsection*.7}
-\contentsline {paragraph}{TEST}{4}{paragraph*.8}
-\contentsline {section}{\numberline {1.2}Gadolinium: as a Neutron Converter Material}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Reaction Energy Spectrum}{5}{subsection.1.2.1}
-\contentsline {subsubsection}{Prompt Gamma-rays}{6}{subsubsection*.10}
-\contentsline {subsubsection}{Internal Conversion Electrons}{6}{subsubsection*.11}
-\contentsline {chapter}{\numberline {2}Semiconductors}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Energy Band Diagram}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Doped semiconductors}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Pn-junction diode}{8}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Reverse Bias, Charge Collection and Pulse Signal?}{9}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}About the Thesis}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Thesis Outline}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Citation Principles}{2}{section.1.3}
+\contentsline {chapter}{\numberline {2}Neutron Detection}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Basic Particle Detectors}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The Gas Detector}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The Scintillation Detector}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}The Semiconductor Detector}{4}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Reactions of Neutron Detection}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Neutron Energies Dependence}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Reaction Characteristics}{4}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Popular reactions}{5}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Gadolinium: as a Neutron Converter Material}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Reaction Energy Spectrum}{7}{subsection.2.3.1}
+\contentsline {subsubsection}{Prompt Gamma-rays}{8}{subsubsection*.3}
+\contentsline {subsubsection}{Internal Conversion Electrons}{8}{subsubsection*.4}
+\contentsline {chapter}{\numberline {3}Semiconductors and Pixel Detectors}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Energy Band Diagram}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Doped Semiconductors}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Pn-Junction Diode}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Reverse Bias, Charge Collection and Pulse Signal?}{11}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Pixel Seonsors and MAPS}{11}{section.3.4}
+\contentsline {chapter}{\numberline {4}Interactions of Radiaition in Matter}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Charged Particle Interactions}{13}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Heavy charged particles and Bethe-Bloch}{13}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Neutron Interactions}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Elastic Scattering}{15}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Inelastic Scattering}{15}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Neutron Capture}{15}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Nuclear Spallation}{16}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Nuclear Fission}{16}{subsection.4.2.5}
