@@ -1,4 +1,4 @@
-PWD /Users/lena/Desktop/Thesis (Latex)
+PWD /Users/lena/Thesis (Latex) copy 2
 INPUT /usr/local/texlive/2017/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -164,8 +164,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 OUTPUT build/macros.aux
 INPUT build/main.aux
 INPUT build/main.aux
-INPUT chap/Introduction/Introduction.aux
-INPUT chap/Introduction/Introduction.aux
+INPUT chap/NeutronDetection/_NeutronDetection.aux
+INPUT chap/NeutronDetection/_NeutronDetection.aux
 OUTPUT build/main.aux
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd

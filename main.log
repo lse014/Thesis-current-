@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  7 JUL 2020 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  14 JUL 2020 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -878,10 +878,10 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthfirst=\dimen154
 )
 Runaway argument?
-./main.tex:83: Paragraph ended before \ttl@format@ii was complete.
+./main.tex:81: Paragraph ended before \ttl@format@ii was complete.
 <to be read again> 
                    \par 
-l.83 
+l.81 
      
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1039,34 +1039,37 @@ Package caption Info: sidecap package is loaded.
 \openout2 = `macros.aux'.
 
 No file macros.tex.
-(./main.aux (./chap/Introduction/Introduction.aux)
-(./chap/NeutDet/NeutronDetection.aux) (./chap/SemiPixel/Semi.aux)
-(./chap/Interaction/Particle.aux))
+(./main.aux (./chap/NeutronDetection/_NeutronDetection.aux
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+) (./chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.aux)
+(./chap/ALPIDE/_ALPIDE.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 165.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 169.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 165.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1170,8 +1173,8 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip86
 \JustifyingParindent=\skip87
 )
-Package backref Info: ** backref set up for natbib ** on input line 169.
-Package hyperref Info: Link coloring ON on input line 169.
+Package backref Info: ** backref set up for natbib ** on input line 165.
+Package hyperref Info: Link coloring ON on input line 165.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1181,9 +1184,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 169.
-LaTeX Info: Redefining \pageref on input line 169.
-LaTeX Info: Redefining \nameref on input line 169.
+LaTeX Info: Redefining \ref on input line 165.
+LaTeX Info: Redefining \pageref on input line 165.
+LaTeX Info: Redefining \nameref on input line 165.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -1191,16 +1194,16 @@ LaTeX Info: Redefining \nameref on input line 169.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- <uib-emblem-svart.pdf, id=124, 80.3pt x 80.3pt>
+ <uib-emblem-svart.pdf, id=100, 80.3pt x 80.3pt>
 File: uib-emblem-svart.pdf Graphic file (type pdf)
 
 <use uib-emblem-svart.pdf>
-Package pdftex.def Info: uib-emblem-svart.pdf used on input line 176.
+Package pdftex.def Info: uib-emblem-svart.pdf used on input line 172.
 (pdftex.def)             Requested size: 227.62204pt x 227.62961pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 173.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 183.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 179.
  [1
 Non-PDF special ignored!
 
@@ -1211,8 +1214,8 @@ Non-PDF special ignored!
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./uib-e
 mblem-svart.pdf>]
-./main.tex:204: Undefined control sequence.
-l.204 \ifDownscaledFinalDoc
+./main.tex:200: Undefined control sequence.
+l.200 \ifDownscaledFinalDoc
                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1220,10 +1223,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:205: Undefined control sequence.
+./main.tex:201: Undefined control sequence.
 <argument> \TextSize 
                      
-l.205 	\fontsize{\TextSize}{\BaseLineSkip}
+l.201 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1231,19 +1234,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:205: Missing number, treated as zero.
+./main.tex:201: Missing number, treated as zero.
 <to be read again> 
                    p
-l.205 	\fontsize{\TextSize}{\BaseLineSkip}
+l.201 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:205: Undefined control sequence.
+./main.tex:201: Undefined control sequence.
 <argument> \BaseLineSkip 
                          
-l.205 	\fontsize{\TextSize}{\BaseLineSkip}
+l.201 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1251,30 +1254,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:205: Missing number, treated as zero.
+./main.tex:201: Missing number, treated as zero.
 <to be read again> 
                    p
-l.205 	\fontsize{\TextSize}{\BaseLineSkip}
+l.201 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:206: Improper `at' size (0.0pt), replaced by 10pt.
+./main.tex:202: Improper `at' size (0.0pt), replaced by 10pt.
 <to be read again> 
                    relax 
-l.206 	\selectfont
+l.202 	\selectfont
                   
 I can only handle fonts at positive sizes that are
 less than 2048pt, so I've changed what you said to 10pt.
 
-./main.tex:207: Extra \fi.
-l.207 \fi
+./main.tex:203: Extra \fi.
+l.203 \fi
          
 I'm ignoring this; it doesn't match any \if.
 
-./main.tex:210: Undefined control sequence.
-l.210 \ifDraft
+./main.tex:206: Undefined control sequence.
+l.206 \ifDraft
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1282,21 +1285,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:213: Extra \fi.
-l.213 \fi
+./main.tex:209: Extra \fi.
+l.209 \fi
          
 I'm ignoring this; it doesn't match any \if.
 
-LaTeX Font Info:    Try loading font information for T1+phv on input line 220.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 216.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 220.
+(Font)              scaled to size 11.39996pt on input line 216.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 220.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 216.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 220.
+(Font)              scaled to size 11.39996pt on input line 216.
  [2
 
 ] (./main.toc
@@ -1344,43 +1347,57 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ] [2
 
 ]
-\openout2 = `chap/Introduction/Introduction.aux'.
+\openout2 = `chap/NeutronDetection/_NeutronDetection.aux'.
 
 
-(./chap/Introduction/Introduction.tex
+(./chap/NeutronDetection/_NeutronDetection.tex
 Chapter 1.
+(./chap/NeutronDetection/ParticleInteraction/_ParticleInteraction.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 12.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+
+(./chap/NeutronDetection/ParticleInteraction/Charged.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 5.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 
+      [1
+
+
+]) (./chap/NeutronDetection/ParticleInteraction/Neutrons.tex
+
+./chap/NeutronDetection/ParticleInteraction/Neutrons.tex:17: Package inputenc E
+rror: Unicode char θ (U+3B8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...nucleus has energy $E_R$ and propagates θ
+                                                   to initial path. Recoil t...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \section{Citation Principles}
-                                   [1
+l.19       \begin{equation}
+                            [2]))
+(./chap/NeutronDetection/BasicDetectors/_BasicDetectors.tex [3] [4] [5]
 
-
-])pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.240 \include{chap/Introduction/Introduction}
-                                               [2]
-\openout2 = `chap/NeutDet/NeutronDetection.aux'.
-
-
-(./chap/NeutDet/NeutronDetection.tex
-Chapter 2.
-(./chap/NeutDet/NeutronDetectors.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
- [3
-
-
-
-] [4]
-
-./chap/NeutDet/NeutronDetectors.tex:44: Package inputenc Error: Unicode char γ
- (U+3B3)
+./chap/NeutronDetection/BasicDetectors/_BasicDetectors.tex:44: Package inputenc
+ Error: Unicode char γ (U+3B3)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -1409,39 +1426,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 63--66
 
  []
 
-) (./chap/NeutDet/Gado/Gd.tex [6]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 19.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-LaTeX Warning: File `/Users/lena/Desktop/Thesis/fig/lvl.png' not found on input
- line 41.
-
-
-./chap/NeutDet/Gado/Gd.tex:41: Package pdftex.def Error: File `/Users/lena/Desk
-top/Thesis/fig/lvl.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...m]{/Users/lena/Desktop/Thesis/fig/lvl.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 41.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
+[6]) (./chap/NeutronDetection/Gadolinium/_Gadolinium.tex [7]
+<fig/lvl.png, id=201, 356.33125pt x 482.80376pt>
+File: fig/lvl.png Graphic file (type png)
+ <use fig/lvl.png>
+Package pdftex.def Info: fig/lvl.png used on input line 41.
+(pdftex.def)             Requested size: 199.16928pt x 269.85994pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 42.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
@@ -1452,26 +1447,98 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7])) [8]
-\openout2 = `chap/SemiPixel/Semi.aux'.
+[8] <fig/Gd_ExcitedStates.png, id=209, 520.94624pt x 338.26375pt>
+File: fig/Gd_ExcitedStates.png Graphic file (type png)
 
- (./chap/SemiPixel/Semi.tex
-Chapter 3.
-(./chap/SemiPixel/Semiconductors.tex
-
-LaTeX Warning: Reference `sec:BandDiagram' on page 9 undefined on input line 3.
+<use fig/Gd_ExcitedStates.png>
+Package pdftex.def Info: fig/Gd_ExcitedStates.png used on input line 58.
+(pdftex.def)             Requested size: 199.16928pt x 129.3261pt.
 
 
+LaTeX Warning: Reference `fig:Gd_ExcitedStates' on page 9 undefined on input li
+ne 63.
 
-./chap/SemiPixel/Semiconductors.tex:4: Package inputenc Error: Unicode char Δ 
-(U+394)
+./chap/NeutronDetection/Gadolinium/_Gadolinium.tex:63: Missing $ inserted.
+<inserted text> 
+                $
+l.63 ... first excited state with spin-parity ( J^
+                                                  π)  2$^+$  and ground sta...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./chap/NeutronDetection/Gadolinium/_Gadolinium.tex:63: Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.63 ...irst excited state with spin-parity ( J^π
+                                                  )  2$^+$  and ground state...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+./chap/NeutronDetection/Gadolinium/_Gadolinium.tex:63: Package inputenc Error: 
+Unicode char π (U+3C0)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ... the band-gap. The width of the band-gap Δ
+l.63 ...irst excited state with spin-parity ( J^π
+                                                  )  2$^+$  and ground state...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chap/NeutronDetection/Gadolinium/_Gadolinium.tex:63: Missing } inserted.
+<inserted text> 
+                }
+l.63 ...excited state with spin-parity ( J^π)  2$
+                                                  ^+$  and ground state 0$^+...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chap/NeutronDetection/Gadolinium/_Gadolinium.tex:63: Missing $ inserted.
+<inserted text> 
+                $
+l.63 ...xcited state with spin-parity ( J^π)  2$^
+                                                  +$  and ground state 0$^+$...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \vbox (badness 2119) has occurred while \output is active []
+
+ [9 <./fig/lvl.png>] [10 <./fig/Gd_ExcitedStates.png>])) [11]
+\openout2 = `chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.aux'.
+
+
+(./chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.tex [12
+
+
+
+]
+Chapter 2.
+(./chap/SemiconductorPixelSensor/Semiconductors.tex
+
+LaTeX Warning: Reference `sec:BandDiagram' on page 13 undefined on input line 6
+.
+
+
+./chap/SemiconductorPixelSensor/Semiconductors.tex:7: Package inputenc Error: U
+nicode char Δ (U+394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ... the band-gap. The width of the band-gap Δ
                                                   E is the difference betwee...
 
 Your command was ignored.
@@ -1479,96 +1546,77 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./chap/SemiPixel/Semiconductors.tex:4: Package inputenc Error: Unicode char Δ 
-(U+394)
+./chap/SemiconductorPixelSensor/Semiconductors.tex:7: Package inputenc Error: U
+nicode char Δ (U+394)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...ctron must collect energy no lesser than Δ
+l.7 ...ctron must collect energy no lesser than Δ
                                                   E to enter the conduction ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[9
+[13] [14]) (./chap/SemiconductorPixelSensor/PixelSensors.tex [15] [16]))
+[17]
+\openout2 = `chap/ALPIDE/_ALPIDE.aux'.
+
+ (./chap/ALPIDE/_ALPIDE.tex [18
 
 
 
-] [10]) (./chap/SemiPixel/PixelDetector.tex [11])) [12]
-\openout2 = `chap/Interaction/Particle.aux'.
+]
+Chapter 3.
+) [19] [20
 
 
-(./chap/Interaction/Particle.tex
-Chapter 4.
-(./chap/Interaction/Charged.tex [13
-
-
-
-]) (./chap/Interaction/Neutrons.tex
-
-./chap/Interaction/Neutrons.tex:17: Package inputenc Error: Unicode char θ (U+
-3B8)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...nucleus has energy $E_R$ and propagates θ
-                                                   to initial path. Recoil t...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[14]
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 44.
- [15])) [16] (./main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
- (./main.aux (./chap/Introduction/Introduction.aux) (./chap/NeutDet/NeutronDete
-ction.aux) (./chap/SemiPixel/Semi.aux)
-(./chap/Interaction/Particle.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
+] (./main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
+ (./main.aux
+(./chap/NeutronDetection/_NeutronDetection.aux)
+(./chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.aux)
+(./chap/ALPIDE/_ALPIDE.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 957B3E36A14B46CB92C544C930690E48;2162.
+(rerunfilecheck)             Checksum: 339D9DE015860E8B38C06BF049E63B9C;1749.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
  ) 
 Here is how much of TeX's memory you used:
- 13043 strings out of 492995
- 191645 string characters out of 6132704
- 300921 words of memory out of 5000000
- 16181 multiletter control sequences out of 15000+600000
- 72808 words of font info for 94 fonts, out of 8000000 for 9000
+ 13033 strings out of 492995
+ 191863 string characters out of 6132704
+ 300511 words of memory out of 5000000
+ 16167 multiletter control sequences out of 15000+600000
+ 70759 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,48p,1622b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/
-utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 209296 bytes).
+ 41i,12n,43p,1673b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (24 pages, 454529 bytes).
 PDF statistics:
  330 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 285 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

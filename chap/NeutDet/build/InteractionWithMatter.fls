@@ -1,6 +1,0 @@
-PWD /Users/lena/Desktop/Thesis (Latex)/chap/NeutDet
-INPUT /usr/local/texlive/2017/texmf.cnf
-INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT InteractionWithMatter.tex
-OUTPUT build/InteractionWithMatter.log

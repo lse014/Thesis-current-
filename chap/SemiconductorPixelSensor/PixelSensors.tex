@@ -1,0 +1,28 @@
+\section{Pixel Seonsors and MAPS}
+\label{sec:PixelSens&MAPS}
+
+\subsection{CMOS technology and circuit logic}
+
+Complementary metal–oxide–semiconductor (CMOS) is a fabrication method used to integrate transistors on a piece of semiconductor, usually silicon. MOS is a type of transistor fabricated by the oxidation of a semiconductor. In pMOS transistors, source (S) and drain (D) are connected to p-wells in an n-type substrate. Inversely, in nMOS transistors, source and drain are connected to n-wells in a p-type substrate.
+The gate-source voltage $V_GS$ controls the conductivity over the transistor. The potential difference gives rise to an electric field between gate and substrate.
+In nMOS, a positive voltage (with respect to ??) attracts substrate electrons to gate and pushes holes away. With sufficient magnitude gate-source voltage can cause partial inversion, turning a fraction of the p-doped substrate into n-type. This creates an n-channel (hence nMOS) connecting source and drain and allows electron flow between the two. Increasing $V_GS$ thickens the channel and opens up for greater electron current, increasing conductivity. Similarly, negative gate-source voltage can be applied to pMOS to create a p-channel. Charge carriers of nMOS and pMOS are electrons and holes, respectively.
+
+A voltage can also be applied such that an electric field occurs between source and drain. In nMOS, (a pos/neg voltage with respect to ??) causes the n-channel to retract away from the drain. The channel becomes asymmetrical, its thickness tapers off as it approaches D (fig. ??). Increasing drain-source voltage ($V_DS$) can completely disconnect the channel from drain. Though S and D are no longer directly connected, current can still flow. Between the “pinched off” channel tip and drain there is a depleted area where charge can drift. While a uniform n-channel permits current in both directions, the disconnected asymmetrical channel is unidirectional. This mode of operation is called saturation mode.
+In saturation mode, further increase of $V_DS$ does not cause current to increase. Electrons are sped up by $V_DS$ to a point where they reach carrier velocity saturation (i.e. maximum velocity) and the current is said to be saturated and constant. [R. Jacob Baker] At this point, raising gate-source voltage can be used to amplify the current.
+
+In a circuit, a saturated MOS transistor works like a switch, current either flows (switch ON) or doesn’t (switch OFF). If input voltage applied to G is high, an n-channel forms in nMOS and current passes though, the switch is “ON”. In pMOS, a high input voltage does not create a p-channel and no current passes the transistor, the switch is “OFF”. Reversely, a low voltage turns nMOS “OFF” while pMOS “ON”.
+
+By controlling the conductivity, electronical signals can be amplified or switch on/off. (“wiki”) The combination of the complementary pMOS and nMOS semiconductors in a circuit, create a CMOS transistor (pMOS + nMOS = CMOS) as shown in Fig. ??.
+
+...
+
+\subsection{Active Pixel Sensors}
+A pixel sensor is an imaging sensor earlier restricted to light applications. In later years pixel sensors have been developed to also detect energetic particles.
+The smallest sensing unit of a pixel sensor is a pixel. A matrix of pixels forms a larger sensing area and together with the proper stimulus (light or ionizing particles) they can generate an image. The image granularity (spatial resolution) is determined by the pixel size; a large pixel gives low granularity, few pixels fit in a matrix, and a small pixel gives high granularity, many pixels fit in a matrix.
+
+The sensitive mechanism in a pixel is a configuration of semiconductors (photodiodes) which generate a pulse signal as a consequence of ionizing radiation traversing its sensing volume
+There are two types of pixel sensors, active and passive. The main difference between an Active Pixel Sensor (APS) and a Passive Pixel Sensor (PPS) is that the former incorporates one or more amplifying transistor (MOSFET transistors) while latter does not. Pixels in PPS are read out without amplification. Transistors in an APS convert generated charge to a voltage, amplify the voltage signal and remove noise. These characteristics make APS superior to PPS which has high noise and slow readout rates in comparison.
+
+\subsection{MAPS}
+In the early 1990s, APS based on CMOS technology was proposed and at the end of the decade their application in particle physics. CMOS APS implement a monolithic pixel architecture (Fig.??b), with transistors built into the pixel itself. In contrast, a hybrid architecture (Fig.?? a) constitutes of individually manufactured pixel and readout electronics coupled by the means of bump bonding.
+A Monolithic APS (MAPS)...

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  7 JUL 2020 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  9 JUL 2020 12:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,10 +820,10 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthfirst=\dimen154
 )
 Runaway argument?
-./main.tex:83: Paragraph ended before \ttl@format@ii was complete.
+./main.tex:81: Paragraph ended before \ttl@format@ii was complete.
 <to be read again> 
                    \par 
-l.83 
+l.81 
      
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -965,30 +965,30 @@ Package caption Info: sidecap package is loaded.
 \openout2 = `macros.aux'.
 
 No file macros.tex.
-(build/main.aux (./chap/Introduction/Introduction.aux))
+(build/main.aux (./chap/NeutronDetection/_NeutronDetection.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 169.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 169.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 165.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 169.
-LaTeX Font Info:    ... okay on input line 169.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 169.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 165.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -1081,8 +1081,8 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip86
 \JustifyingParindent=\skip87
 )
-Package backref Info: ** backref set up for natbib ** on input line 169.
-Package hyperref Info: Link coloring ON on input line 169.
+Package backref Info: ** backref set up for natbib ** on input line 165.
+Package hyperref Info: Link coloring ON on input line 165.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1090,9 +1090,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 169.
-LaTeX Info: Redefining \pageref on input line 169.
-LaTeX Info: Redefining \nameref on input line 169.
+LaTeX Info: Redefining \ref on input line 165.
+LaTeX Info: Redefining \pageref on input line 165.
+LaTeX Info: Redefining \nameref on input line 165.
  (build/main.out) (build/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -1102,12 +1102,12 @@ Package caption Info: End \AtBeginDocument code.
  <uib-emblem-svart.pdf, id=4, 80.3pt x 80.3pt>
 File: uib-emblem-svart.pdf Graphic file (type pdf)
  <use uib-emblem-svart.pdf>
-Package pdftex.def Info: uib-emblem-svart.pdf used on input line 176.
+Package pdftex.def Info: uib-emblem-svart.pdf used on input line 172.
 (pdftex.def)             Requested size: 227.62204pt x 227.62961pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 173.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 183.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 179.
  [1
 Non-PDF special ignored!
 
@@ -1117,8 +1117,8 @@ Non-PDF special ignored!
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./uib-emblem-svart.pdf>]
-./main.tex:204: Undefined control sequence.
-l.204 \ifDownscaledFinalDoc
+./main.tex:200: Undefined control sequence.
+l.200 \ifDownscaledFinalDoc
                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1126,10 +1126,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:205: Undefined control sequence.
+./main.tex:201: Undefined control sequence.
 <argument> \TextSize 
                      
-l.205 	\fontsize{\TextSize}{\BaseLineSkip}
+l.201 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1137,19 +1137,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:205: Missing number, treated as zero.
+./main.tex:201: Missing number, treated as zero.
 <to be read again> 
                    p
-l.205 	\fontsize{\TextSize}{\BaseLineSkip}
+l.201 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:205: Undefined control sequence.
+./main.tex:201: Undefined control sequence.
 <argument> \BaseLineSkip 
                          
-l.205 	\fontsize{\TextSize}{\BaseLineSkip}
+l.201 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1157,30 +1157,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:205: Missing number, treated as zero.
+./main.tex:201: Missing number, treated as zero.
 <to be read again> 
                    p
-l.205 	\fontsize{\TextSize}{\BaseLineSkip}
+l.201 	\fontsize{\TextSize}{\BaseLineSkip}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./main.tex:206: Improper `at' size (0.0pt), replaced by 10pt.
+./main.tex:202: Improper `at' size (0.0pt), replaced by 10pt.
 <to be read again> 
                    relax 
-l.206 	\selectfont
+l.202 	\selectfont
                   
 I can only handle fonts at positive sizes that are
 less than 2048pt, so I've changed what you said to 10pt.
 
-./main.tex:207: Extra \fi.
-l.207 \fi
+./main.tex:203: Extra \fi.
+l.203 \fi
          
 I'm ignoring this; it doesn't match any \if.
 
-./main.tex:210: Undefined control sequence.
-l.210 \ifDraft
+./main.tex:206: Undefined control sequence.
+l.206 \ifDraft
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1188,21 +1188,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:213: Extra \fi.
-l.213 \fi
+./main.tex:209: Extra \fi.
+l.209 \fi
          
 I'm ignoring this; it doesn't match any \if.
 
-LaTeX Font Info:    Try loading font information for T1+phv on input line 220.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 216.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 220.
+(Font)              scaled to size 11.39996pt on input line 216.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 220.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 216.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 220.
+(Font)              scaled to size 11.39996pt on input line 216.
  [2
 
 ] (build/main.toc)
@@ -1214,27 +1214,27 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 ] [2
 
 ]
-./main.tex:240: I can't write on file `chap/Introduction/Introduction.aux'.
+./main.tex:233: I can't write on file `chap/NeutronDetection/_NeutronDetection.aux'.
 \@include ...\immediate \openout \@partaux #1.aux 
                                                   \immediate \write \@partau...
-l.240 \include{chap/Introduction/Introduction}
-                                              
+l.233 ...{chap/NeutronDetection/_NeutronDetection}
+                                                  
 (Press Enter to retry, or Control-D to exit; default file extension is `.tex')
 Please type another output file name
-./main.tex:240: Emergency stop.
+./main.tex:233: Emergency stop.
 \@include ...\immediate \openout \@partaux #1.aux 
                                                   \immediate \write \@partau...
-l.240 \include{chap/Introduction/Introduction}
-                                              
+l.233 ...{chap/NeutronDetection/_NeutronDetection}
+                                                  
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
- 12676 strings out of 492995
- 185639 string characters out of 6132704
- 292104 words of memory out of 5000000
- 15988 multiletter control sequences out of 15000+600000
+ 12681 strings out of 492995
+ 185757 string characters out of 6132704
+ 292410 words of memory out of 5000000
+ 15993 multiletter control sequences out of 15000+600000
  36245 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,43p,260b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-./main.tex:240:  ==> Fatal error occurred, no output PDF file produced!
+./main.tex:233:  ==> Fatal error occurred, no output PDF file produced!

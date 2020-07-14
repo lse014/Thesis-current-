@@ -1,6 +1,0 @@
-PWD /Users/lena/Desktop/Thesis (Latex)/chap/SemiPixel
-INPUT /usr/local/texlive/2017/texmf.cnf
-INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Semi.tex
-OUTPUT build/Semi.log

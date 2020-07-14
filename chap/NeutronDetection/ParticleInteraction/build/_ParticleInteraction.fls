@@ -1,0 +1,6 @@
+PWD /Users/lena/Thesis (Latex) copy 2/chap/NeutronDetection/ParticleInteraction
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT _ParticleInteraction.tex
+OUTPUT build/_ParticleInteraction.log

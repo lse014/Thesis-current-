@@ -1,3 +1,4 @@
+
 %
 % Settings file
 %
@@ -8,7 +9,6 @@
 %
 
 \documentclass[12pt]{book}
-
 
 %
 % The geometry package allows consistent control of page layout
@@ -21,8 +21,6 @@
 			vmargin = 25mm,          %Top and bottom margin
 			dvipdfm]
 			{geometry}
-
-
 %
 % Font settings
 %
@@ -161,8 +159,6 @@
 %{\fontsize{28}{30}\usefont{OT1}{phv}{bc}{n}\selectfont
 %{\fontsize{28}{30}\usefont{T1}{phv}{bc}{n}\selectfont Exchange of water masses
 
-
-
 %====================================================
 %------------------ BEGIN DOCUMENT ------------------
 %====================================================
@@ -233,14 +229,11 @@
 %
 % Main chapters
 %
-%\include{1Introduction}         % Introduction
-%\include{2Objectives}
-%\include{3Introduction_papers}  % Introduction to the papers
-%\include{4Papers}               % The papers, with cover pages
-\include{chap/Introduction/Introduction}
-\include{chap/NeutDet/NeutronDetection}
-\include{chap/SemiPixel/Semi}
-\include{chap/Interaction/Particle}
+
+\include{chap/NeutronDetection/_NeutronDetection}
+\include{chap/SemiconductorPixelSensor/_SemiconductorPixelSensor}
+\include{chap/ALPIDE/_ALPIDE}
+
 
 %ALPIDE
 %\include{chap/Gado/Gd}
