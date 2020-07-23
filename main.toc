@@ -2,31 +2,32 @@
 \contentsline {section}{\numberline {1.1}Interactions of Radiaition in Matter}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Charged Particle Interactions}{1}{subsection.1.1.1}
 \contentsline {subsubsection}{Heavy charged particles and Bethe-Bloch}{1}{subsubsection*.2}
-\contentsline {subsection}{\numberline {1.1.2}Neutron Interactions}{2}{subsection.1.1.2}
-\contentsline {subsubsection}{Elastic Scattering}{2}{subsubsection*.4}
-\contentsline {subsubsection}{Inelastic Scattering}{3}{subsubsection*.5}
-\contentsline {subsubsection}{Neutron Capture}{3}{subsubsection*.6}
-\contentsline {subsubsection}{Nuclear Spallation}{3}{subsubsection*.7}
-\contentsline {subsubsection}{Nuclear Fission}{4}{subsubsection*.8}
-\contentsline {section}{\numberline {1.2}Basic Particle Detectors}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}The Gas Detector}{4}{subsection.1.2.1}
+\contentsline {subsubsection}{Electrons}{2}{subsubsection*.4}
+\contentsline {subsection}{\numberline {1.1.2}Neutron Interactions}{3}{subsection.1.1.2}
+\contentsline {subsubsection}{Elastic Scattering}{3}{subsubsection*.5}
+\contentsline {subsubsection}{Inelastic Scattering}{4}{subsubsection*.6}
+\contentsline {subsubsection}{Neutron Capture}{4}{subsubsection*.7}
+\contentsline {subsubsection}{Nuclear Spallation}{4}{subsubsection*.8}
+\contentsline {subsubsection}{Nuclear Fission}{4}{subsubsection*.9}
+\contentsline {section}{\numberline {1.2}Basic Particle Detectors}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}The Gas Detector}{5}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}The Scintillation Detector}{5}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}The Semiconductor Detector}{5}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Reactions of Neutron Detection}{5}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Neutron Energies Dependence}{5}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Reaction Characteristics}{5}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.3}Reactions of Neutron Detection}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Neutron Energies Dependence}{6}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Reaction Characteristics}{6}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Popular reactions}{6}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Gadolinium: as a Neutron Converter Material}{7}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Reaction Energy Spectrum}{8}{subsection.1.4.1}
-\contentsline {subsubsection}{Prompt Gamma-Rays}{9}{subsubsection*.10}
-\contentsline {subsubsection}{Internal Conversion Electrons}{10}{subsubsection*.12}
-\contentsline {subsubsection}{X-rays and Auger Electrons}{11}{subsubsection*.13}
+\contentsline {section}{\numberline {1.4}Gadolinium: as a Neutron Converter Material}{8}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Reaction Energy Spectrum}{9}{subsection.1.4.1}
+\contentsline {subsubsection}{Prompt Gamma-Rays}{10}{subsubsection*.11}
+\contentsline {subsubsection}{Internal Conversion Electrons}{11}{subsubsection*.13}
+\contentsline {subsubsection}{X-rays and Auger Electrons}{11}{subsubsection*.14}
 \contentsline {chapter}{\numberline {2}Semiconductors and Pixel Sensors}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Semiconductors}{13}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Energy Band Diagram}{13}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Doped Semiconductors}{13}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Pn-Junction Diode}{14}{subsection.2.1.3}
-\contentsline {subsubsection}{Reverse Bias, Charge Collection and Pulse Signal?}{15}{subsubsection*.14}
+\contentsline {subsubsection}{Reverse Bias, Charge Collection and Pulse Signal?}{15}{subsubsection*.15}
 \contentsline {section}{\numberline {2.2}Pixel Seonsors and MAPS}{15}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}CMOS technology and circuit logic}{16}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Active Pixel Sensors}{16}{subsection.2.2.2}

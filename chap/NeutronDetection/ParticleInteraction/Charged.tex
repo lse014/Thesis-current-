@@ -45,8 +45,33 @@ $A$: & atomic weight of absorbing material &  & single collision \\
 
 Noteworthy symbols in the formula are $\beta$ (representative of incident particle speed) and z (charge of incident particle).
 According to bethe-bloch, $\beta = v/c$, and thus mean energy loss $dE/dx$, is inversely proportional to $v^2$, the particle speed squared. As particles slow down their speed decreases and energy deposition increases, until fully at rest. The other dependency z shows how particles of heavier charge ionize material more effectively. (rewrite)
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsubsection{Electrons}
+Light particles lose energy via other interactions in addition to elastic scattering. The total energy loss is a combination of radiational and collisional loss.
 
+    \begin{equation}
+      \left(\frac{dE}{dx}\right)_{tot}=\left(\frac{dE}{dx}\right)_{col}+\left(\frac{dE}{dx}\right)_{rad}
+    \end{equation}
 
-Electrons...
+Collisional loss can be described by modifying Bethe-Bloch. Light particles are small in mass, as per definition, and are prone to scattering. Like heavy particles, workings of collision also apply for light particles. However, Bethe-Bloch’s assumptions of large incident particle mass and non-deviating trajectory are no longer valid and must be corrected for. Moreover, in case of an incident electron, collisions occur with identical particles, atomic electrons, and the formula must account for their indistinguishability. This changes a couple of terms in Bethe-Bloch, notably maximum allowed energy transfer $W_max = \frac{T_e}{2}$ for electrons of kinetic energy $T_e$. Considering electron properties, the modified formula becomes
+
+    \begin{equation}
+        - \frac{dE}{dx} = K \rho \frac{Z}{A} \frac{1}{\beta^2}
+                          \left[
+                          \ln{\frac{\tau^2(\tau+2)}{2(I/m_eC^2)^2}}+F(\tau) - \delta-2\frac{C}{Z}
+                          \right]
+    \end{equation}
+
+The particles kinetic energy is represented by t, in units of $mc^2$ and, for electrons,
+    \begin{equation}
+      F(\tau) = 1- \beta^2+\frac{\frac{\tau^2}{8}-(2r+r)\ln{2} }{(\tau+1)^2}
+    \end{equation}
+
+Light particles also lose energy by radiation. Electrons passing a nucleus experience an attractive coulomb force exerted by the nucleus positive electric field. In a curved like manner, the electrons deviate from their straight-line path and accelerate. Accelerating charged particles emit electromagnetic waves known as breaking radiation, or bremsstrahlung. Bremsstrahlung comes at a cost of diminishing particle kinetic energy. In other words, scattered electrons slow down.
+
+An electron can lose up to 100\% of its energy in only one or two photons. Because of this, same energy electrons vary greatly in energy loss and path length.
+
+...
 
 Other interactions...
+Range ...
