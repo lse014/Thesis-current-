@@ -1,0 +1,25 @@
+\section{Metal Oxide Semiconductor Field-Effect Transistor (MOSFET)}
+
+Field-Effect transistors (FET) are voltage-operated devices. They use electric field to control device conductivity. Most common are Metal Oxide Semiconductor FETs (MOSFETs), also known as MOS transistors.
+
+[Intro]
+
+\subsection{Structure}
+The structure of a MOSFET is illustrated in fig??. The nMOS transistor is realized on a body of p-type silicon substrate. Two regions of the substrate, called source region and drain region, are heavily doped with n+ silicon. Between the n-regions a silicon dioxide (SiO$_2$) layer is grown on top of the substrate. A metal gate electron is deposited on top of the oxide layer. Ohmic contacts are attached to source and drain region, as well as the substrate.
+Where an n-region interfaces with the p-type silicon body a pn-junction forms. Source and drain region are separated by the highly resistive substrate and initially resemble two diodes. The area between source and drain region is referred to as “channel-region”.
+The substrate electrode (B) is grounded and is not considered a functional terminal of the MOSFET. The transistor is there for referred to as a three-terminal device, where the terminals are source (S), drain (D) and gate (G).
+The basic transistor composition is symmetrical. “Source” and “drain” merely indicate which terminal supplies (source) and which collects (drain) charge carriers. Conventional current flows from drain to source. Adjusting input voltage to the gate terminal alters device conductivity. Voltages applied to the device are relative to source terminal.
+
+
+\subsection{Zero gate-to-source voltage, $v_{{GS}}=0$}
+Without any voltage difference between gate and source the transistor in fig?? simply resembles two diodes, between which no electricity flows. The channel-region is highly resistive and does not permit charge carriers of the source-region to travel to the drain-region.
+
+\subsection{Channel formation}
+In order for current to flow between the source and the drain terminals an electrical connection must be made between the two. Increasing $V_{GS}$ up to or beyond a threshold voltage $V_{TH}$ (which is determined during fabrication) generates a conducting channel between S and D terminal. Voltage applied to gate gives rise to an electric field in the oxide layer. In the nMOS, a positive $V_{GS}$ pushes holes (charge carriers of the substrate) downwards and leaves bound electrons of acceptor atoms exposed. Furthermore, the electric field pulls abundant electrons from the n-regions into the channel-region.  With sufficiently large gate voltage $(v_{{GS}}>v_{TH})$, enough electrons accumulate across the substrate-oxide interface to invert a thin layer of the p-type substrate into n-type. The inversion layer, also referred to as the n-channel. It connects source-region to drain-region such that charge carriers can flow from one end to the other.
+Any additional voltage increase beyond threshold extends the channel deeper into the substrate. The overdrive voltage (OV) is defined as $V_{OV}≡V_{GS}-V_{TH}$ in []. Raising V_OV increases channel charge proportionally. With more available carriers the device conductivity has increased.
+
+
+\subsection{Drain-to-source voltage, $v_{DS}>0$}
+Assuming applied gate voltage is above critical threshold, electrons can flow freely between n-regions though the channel. The relationship between drain current $i_D$ and drain-to-source voltage $v_{DS}$ is depicted in fig??. Without any voltage ($v_{DS}=0$) to coach the electrons in a specific direction the channel current is zero ($i_D=0$). This can be changed by introducing a small positive potential drop across the channel which promotes electron flow from source to drain. Slowly raising V_DS increases the current linearly. Proceeding to larger voltages the growth slows down and increases less than linear with $v_{DS}$.
+
+....

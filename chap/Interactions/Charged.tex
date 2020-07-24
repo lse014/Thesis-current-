@@ -1,0 +1,77 @@
+%CHARGED PARTICLES
+\section{Charged Particle Interactions}
+Particles with electrical charge are subject to electromagnetic forces. Matter is made up of atoms, which composite atomic electrons and nuclei. Atomic constituents are each surrounded by an electric field and in the path of a traversing particle, causes deacceleration and divergence from its original trajectory. Energy loss mechanisms of a charged particle are:
+\begin{itemize}[noitemsep]
+  \item Elastic collision with atomic nuclei
+	\item Elastic scattering with atomic electrons
+	\item Inelastic scattering with atomic electrons
+	\item Cherenkov
+	\item Transition radiation
+	\item Bremsstrahlung
+\end{itemize}
+
+Again, one must distinguish based on particle properties, this time, namely mass.
+The mass of a "heavy" particle is one atomic unit or greater. This includes protons, alpha and other ions. That leaves electrons and positrons as "light" particles, with an atomic mass is ... Less than protons. Heavy particles (e.g. ions) are less effected by a nuclei electric field than light particles (e.g. electrons). Elastic scattering of the nuclei effect both heavy and light, however, the impact is greater for the latter.
+
+\subsection{Heavy charged particles and Bethe-Bloch}
+Though there are several types of interactions, heavy charged particles mainly lose energy due to inelastic collisions with outer-shell electrons. The Bethe-Bloch formula describes their average energy loss per unit length:
+
+\begin{equation} \label{Bethe-Bloch}
+  - \frac{dE}{dx} = K \rho \frac{Z}{A} \frac{z^2}{\beta^2} \left[  \ln{\frac{2 m_e c^2 \beta^2 \gamma^2 T_{max}}{I^2}} - 2\beta^2 - \delta-2\frac{C}{Z}\right]
+\end{equation}
+
+where:
+
+\begin{equation}
+  K = 2\pi N_a {r_{e}}^{2} m_e c^2 = 0.1535 MeVcm^2/g
+\end{equation}
+
+\begin{table}[H]
+\rmfamily
+\centering
+\begin{tabular}{llll}
+$r_{e}$: & classical electron & $\rho$: & density of absorbing material \\
+ & radius = $2.817\times10^-13cm^2/g$ & z: & charge of incident particle in \\
+$m_{e}$: & electron mass &  & unit of e \\
+$N_{a}$: & Avogadro's & $\beta$ = & $p/c$ of the incident particle \\
+ & number = $6.022 \times 10^{23}mol^{-1}$ & $\gamma$ = & $1/\sqrt{1-\beta^2}$ \\
+$I$: & mean excitation potential & $\delta$: & density correction \\
+$Z$: & atomic number of absorbing & $C$: & shell correction \\
+ & material & $W_{max}$: & maximum energy transfer in a \\
+$A$: & atomic weight of absorbing material &  & single collision \\
+
+\end{tabular}
+\end{table}
+
+Noteworthy symbols in the formula are $\beta$ (representative of incident particle speed) and z (charge of incident particle).
+According to bethe-bloch, $\beta = v/c$, and thus mean energy loss $dE/dx$, is inversely proportional to $v^2$, the particle speed squared. As particles slow down their speed decreases and energy deposition increases, until fully at rest. The other dependency z shows how particles of heavier charge ionize material more effectively. (rewrite)
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Electrons}
+Light particles lose energy via other interactions in addition to elastic scattering. The total energy loss is a combination of radiational and collisional loss.
+
+    \begin{equation}
+      \left(\frac{dE}{dx}\right)_{tot}=\left(\frac{dE}{dx}\right)_{col}+\left(\frac{dE}{dx}\right)_{rad}
+    \end{equation}
+
+Collisional loss can be described by modifying Bethe-Bloch. Light particles are small in mass, as per definition, and are prone to scattering. Like heavy particles, workings of collision also apply for light particles. However, Bethe-Bloch’s assumptions of large incident particle mass and non-deviating trajectory are no longer valid and must be corrected for. Moreover, in case of an incident electron, collisions occur with identical particles, atomic electrons, and the formula must account for their indistinguishability. This changes a couple of terms in Bethe-Bloch, notably maximum allowed energy transfer $W_max = \frac{T_e}{2}$ for electrons of kinetic energy $T_e$. Considering electron properties, the modified formula becomes
+
+    \begin{equation}
+        - \frac{dE}{dx} = K \rho \frac{Z}{A} \frac{1}{\beta^2}
+                          \left[
+                          \ln{\frac{\tau^2(\tau+2)}{2(I/m_eC^2)^2}}+F(\tau) - \delta-2\frac{C}{Z}
+                          \right]
+    \end{equation}
+
+The particles kinetic energy is represented by t, in units of $mc^2$ and, for electrons,
+    \begin{equation}
+      F(\tau) = 1- \beta^2+\frac{\frac{\tau^2}{8}-(2r+r)\ln{2} }{(\tau+1)^2}
+    \end{equation}
+
+Light particles also lose energy by radiation. Electrons passing a nucleus experience an attractive coulomb force exerted by the nucleus positive electric field. In a curved like manner, the electrons deviate from their straight-line path and accelerate. Accelerating charged particles emit electromagnetic waves known as breaking radiation, or bremsstrahlung. Bremsstrahlung comes at a cost of diminishing particle kinetic energy. In other words, scattered electrons slow down.
+
+An electron can lose up to 100\% of its energy in only one or two photons. Because of this, same energy electrons vary greatly in energy loss and path length.
+
+...
+
+Other interactions...
+Range ...
