@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  23 JUL 2020 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  5 AUG 2020 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1039,13 +1039,15 @@ Package caption Info: sidecap package is loaded.
 \openout2 = `macros.aux'.
 
 No file macros.tex.
-(./main.aux (./chap/Interactions/_ParticleInteraction.aux)
-(./chap/Gadolinium/_Gadolinium.aux
+(./main.aux (./chap/Introduction/_Introduction.aux)
+(./chap/Interactions/_ParticleInteraction.aux) (./chap/Detection/_Detection.aux
+) (./chap/Gadolinium/_Gadolinium.aux
 
 LaTeX Warning: Label `fig:1' multiply defined.
 
 ) (./chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.aux)
-(./chap/ALPIDE/_ALPIDE.aux))
+(./chap/ALPIDE/_ALPIDE.aux) (./chap/Simulations/_Simulations.aux)
+(./chap/Testing/_Testing.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
@@ -1195,7 +1197,7 @@ LaTeX Info: Redefining \nameref on input line 165.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- <uib-emblem-svart.pdf, id=168, 80.3pt x 80.3pt>
+ <uib-emblem-svart.pdf, id=221, 80.3pt x 80.3pt>
 File: uib-emblem-svart.pdf Graphic file (type pdf)
 
 <use uib-emblem-svart.pdf>
@@ -1346,14 +1348,39 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout4 = `main.toc'.
 
  [2]
+\openout2 = `chap/Introduction/_Introduction.aux'.
+
+
+(./chap/Introduction/_Introduction.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.233 \include{chap/Introduction/_Introduction}
+                                                [1
+
+
+
+]
 \openout2 = `chap/Interactions/_ParticleInteraction.aux'.
 
 
-(./chap/Interactions/_ParticleInteraction.tex
-Chapter 1.
+(./chap/Interactions/_ParticleInteraction.texpdfTeX warning (ext4): destination
+ with the same identifier (name{page.2}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Interactions of Radiaition in Matter} [2
+
+
+
+]
+Chapter 2.
 (./chap/Interactions/Neutrons.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 16.
 
@@ -1373,21 +1400,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.21       \begin{equation}
-                            [1
-
-
-
-]) (./chap/Interactions/Charged.texpdfTeX warning (ext4): destination with the 
-same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 \section{Charged Particle Interactions}
-                                            [2]
+[3]) (./chap/Interactions/Charged.tex [4]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -1395,8 +1408,8 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 Underfull \vbox (badness 1983) has occurred while \output is active []
 
- [3])
-(./chap/Interactions/Photons.tex [4] [5]
+ [5])
+(./chap/Interactions/Photons.tex [6] [7]
 
 ./chap/Interactions/Photons.tex:31: Package inputenc Error: Unicode char μ (U+
 3BC)
@@ -1412,20 +1425,29 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-)) [6]
-\openout2 = `chap/Gadolinium/_Gadolinium.aux'.
+)) [8]
+\openout2 = `chap/Detection/_Detection.aux'.
 
- (./chap/Gadolinium/_Gadolinium.tex
-Chapter 2.
-
-Underfull \vbox (badness 2753) has occurred while \output is active []
-
- [7
+ (./chap/Detection/_Detection.tex
+Chapter 3.
+) [9
 
 
 
 ]
-<fig/lvl.png, id=285, 356.33125pt x 482.80376pt>
+\openout2 = `chap/Gadolinium/_Gadolinium.aux'.
+
+ (./chap/Gadolinium/_Gadolinium.tex [10
+
+
+
+]
+Chapter 4.
+
+Underfull \vbox (badness 2753) has occurred while \output is active []
+
+ [11]
+<fig/lvl.png, id=368, 356.33125pt x 482.80376pt>
 File: fig/lvl.png Graphic file (type png)
  <use fig/lvl.png>
 Package pdftex.def Info: fig/lvl.png used on input line 42.
@@ -1440,7 +1462,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] <fig/Gd_ExcitedStates.png, id=293, 520.94624pt x 338.26375pt>
+[12] <fig/Gd_ExcitedStates.png, id=376, 520.94624pt x 338.26375pt>
 File: fig/Gd_ExcitedStates.png Graphic file (type png)
 
 <use fig/Gd_ExcitedStates.png>
@@ -1448,8 +1470,8 @@ Package pdftex.def Info: fig/Gd_ExcitedStates.png used on input line 59.
 (pdftex.def)             Requested size: 199.16928pt x 129.3261pt.
 
 
-LaTeX Warning: Reference `fig:Gd_ExcitedStates' on page 9 undefined on input li
-ne 64.
+LaTeX Warning: Reference `fig:Gd_ExcitedStates' on page 13 undefined on input l
+ine 64.
 
 ./chap/Gadolinium/_Gadolinium.tex:64: Missing $ inserted.
 <inserted text> 
@@ -1504,22 +1526,22 @@ l.64 ...xcited state with spin-parity ( J^π)  2$^
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[9 <./fig/lvl.png> <./fig/Gd_ExcitedStates.png>]
+[13 <./fig/lvl.png> <./fig/Gd_ExcitedStates.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 100.
- [10]) [11]
+ [14]) [15]
 \openout2 = `chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.aux'.
 
 
-(./chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.tex [12
+(./chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.tex [16
 
 
 
 ]
-Chapter 3.
+Chapter 5.
 (./chap/SemiconductorPixelSensor/Semiconductors.tex
 
-LaTeX Warning: Reference `sec:BandDiagram' on page 13 undefined on input line 6
+LaTeX Warning: Reference `sec:BandDiagram' on page 17 undefined on input line 6
 .
 
 
@@ -1554,141 +1576,124 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13] [14]) (./chap/SemiconductorPixelSensor/PixelSensors.tex [15] [16])
-(./chap/SemiconductorPixelSensor/MOSFET.tex
-Overfull \hbox (19.12686pt too wide) in paragraph at lines 1--1
-|[]\T1/ptm/b/n/17.28 Metal Ox-ide Semi-con-duc-tor Field-Effect Tran-sis-tor (M
-OS-
- []
+[17] [18]) (./chap/SemiconductorPixelSensor/PixelSensors.tex [19] [20]))
+[21]
+\openout2 = `chap/ALPIDE/_ALPIDE.aux'.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 14.
+ (./chap/ALPIDE/_ALPIDE.tex [22
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 14.
 
+]
+Chapter 6.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 14.
-
-
-./chap/SemiconductorPixelSensor/MOSFET.tex:19: Package inputenc Error: Unicode 
-char ≡ (U+2261)
+./chap/ALPIDE/_ALPIDE.tex:7: Package inputenc Error: Unicode char ≈ (U+2248)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 ...rive voltage (OV) is defined as $V_{OV}≡
-                                                  V_{GS}-V_{TH}$ in []. Rais...
+l.7 ...$^-$) and excellent spatial resolution (≈
+                                                   5um) for tracking charged...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./chap/SemiconductorPixelSensor/MOSFET.tex:19: Missing $ inserted.
+
+./chap/ALPIDE/_ALPIDE.tex:12: Package inputenc Error: Unicode char μ (U+3BC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 Each pixel has a surface area 29.24 μ
+                                           m × 26.88 μm and a sensing diod...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./chap/ALPIDE/_ALPIDE.tex:12: Package inputenc Error: Unicode char μ (U+3BC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...l has a surface area 29.24 μm × 26.88 μ
+                                                  m and a sensing diode (dia...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[23]) [24]
+\openout2 = `chap/Simulations/_Simulations.aux'.
+
+ (./chap/Simulations/_Simulations.tex
+Chapter 7.
+) [25
+
+
+
+]
+\openout2 = `chap/Testing/_Testing.aux'.
+
+ (./chap/Testing/_Testing.tex [26
+
+
+
+]
+Chapter 8.
+(./chap/Testing/Cyclotron.tex
+./chap/Testing/Cyclotron.tex:16: Missing $ inserted.
 <inserted text> 
                 $
-l.19 ...$V_{OV}≡V_{GS}-V_{TH}$ in []. Raising V_
-                                                  OV increases channel charg...
+l.16 ...characteristic x-rays, prominently from K_
+                                                  alpha transitions. Further...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chap/SemiconductorPixelSensor/MOSFET.tex:20: Missing $ inserted.
+./chap/Testing/Cyclotron.tex:17: Missing $ inserted.
 <inserted text> 
                 $
-l.20 
+l.17 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (72.9688pt too wide) in paragraph at lines 18--20
-\T1/ptm/m/n/12 V$[]\OML/ztmcm/m/it/12 Vincreaseschannelchargeproportionally:Wit
-hmoreavailablecarriersthedeviceconductivityhasincreased:$ 
+Overfull \hbox (282.01402pt too wide) in paragraph at lines 14--17
+\T1/ptm/m/n/12 K$[]\OML/ztmcm/m/it/12 lphatransitions:Furthermore; gadoliniumac
+tivationcanalsobecausedbygamma \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 induced
+excitation\OT1/ztmcm/m/n/12 [\OML/ztmcm/m/it/12 Kandlakunta\OT1/ztmcm/m/n/12 20
+14?]\OML/ztmcm/m/it/12 :Struckbyenergeticgamma \OMS/ztmcm/m/n/12 ^^@
  []
 
-[17]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 22.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 22.
-
-./chap/SemiconductorPixelSensor/MOSFET.tex:23: Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...ow from source to drain. Slowly raising V_
-                                                  DS increases the current l...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./chap/SemiconductorPixelSensor/MOSFET.tex:23: Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...wn and increases less than linear with $v_
-                                                  {DS}$.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (196.3646pt too wide) in paragraph at lines 23--24
-\T1/ptm/m/n/12 Slowly rais-ing V$[]\OML/ztmcm/m/it/12 Sincreasesthecurrentlinea
-rly:Proceedingtolargervoltagesthegrowthslowsdownandincreaseslessthanlinearwith$
-\T1/ptm/m/n/12 v$[]$. 
+Overfull \hbox (72.96878pt too wide) in paragraph at lines 14--17
+\OML/ztmcm/m/it/12 rays; gadoliniumisionizedandattainsanexcitedstatefromwhichit
+relaxesbymeansofx \OMS/ztmcm/m/n/12 ^^@ \OML/ztmcm/m/it/12 rayemission:Thus; x 
+\OMS/ztmcm/m/n/12 ^^@
  []
 
-)) [18]
-\openout2 = `chap/ALPIDE/_ALPIDE.aux'.
-
- (./chap/ALPIDE/_ALPIDE.tex
-Chapter 4.
-[19
-
-
-
-]
-
-./chap/ALPIDE/_ALPIDE.tex:33: Package inputenc Error: Unicode char ≈ (U+2248)
-
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...event $^{-1}$) and spatial resolution (≈
-                                                  5 um) [F. Colamaria].
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) [20] (./main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
- (./main.aux (./chap/Interactions/_ParticleInteraction.aux)
-(./chap/Gadolinium/_Gadolinium.aux)
+[27])) [28] (./main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+ (./main.aux (./chap/Introduction/_Introduction.aux)
+(./chap/Interactions/_ParticleInteraction.aux) (./chap/Detection/_Detection.aux
+) (./chap/Gadolinium/_Gadolinium.aux)
 (./chap/SemiconductorPixelSensor/_SemiconductorPixelSensor.aux)
-(./chap/ALPIDE/_ALPIDE.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+(./chap/ALPIDE/_ALPIDE.aux) (./chap/Simulations/_Simulations.aux)
+(./chap/Testing/_Testing.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 300C967D504DD316C4BD105BF31AE36F;2988.
+(rerunfilecheck)             Checksum: 1A9A8B21AA221FCFA43FFBEA8E985F24;3582.
 
 
 LaTeX Warning: There were undefined references.
@@ -1696,14 +1701,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  ) 
 Here is how much of TeX's memory you used:
- 13100 strings out of 492995
- 192478 string characters out of 6132704
- 300920 words of memory out of 5000000
- 16209 multiletter control sequences out of 15000+600000
- 87235 words of font info for 128 fonts, out of 8000000 for 9000
+ 13140 strings out of 492995
+ 193329 string characters out of 6132704
+ 301854 words of memory out of 5000000
+ 16202 multiletter control sequences out of 15000+600000
+ 74659 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,48p,1673b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1717,10 +1722,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (24 pages, 464339 bytes).
+Output written on main.pdf (32 pages, 466074 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 89 named destinations out of 1000 (max. 500000)
- 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 464 compressed objects within 5 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 448 words of extra memory for PDF output out of 10000 (max. 10000000)
 

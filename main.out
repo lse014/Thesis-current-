@@ -1,41 +1,54 @@
-\BOOKMARK [0][-]{chapter.1}{Interactions of Radiaition in Matter}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Neutron Interactions}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{Elastic Scattering}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{Inelastic Scattering}{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.3}{Neutron Capture}{section.1.1}% 5
-\BOOKMARK [2][-]{subsection.1.1.4}{Nuclear Spallation}{section.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.1.5}{Nuclear Fission}{section.1.1}% 7
-\BOOKMARK [1][-]{section.1.2}{Charged Particle Interactions}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.2.1}{Heavy charged particles and Bethe-Bloch}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.2}{Electrons}{section.1.2}% 10
-\BOOKMARK [1][-]{section.1.3}{Photon interaction with matter}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.3.1}{Photoelectric effect}{section.1.3}% 12
-\BOOKMARK [2][-]{subsection.1.3.2}{Compton scattering}{section.1.3}% 13
-\BOOKMARK [2][-]{subsection.1.3.3}{Pair production }{section.1.3}% 14
-\BOOKMARK [2][-]{subsection.1.3.4}{Gamma beam attenuation}{section.1.3}% 15
-\BOOKMARK [0][-]{chapter.2}{Gadolinium Neutron Conversion}{}% 16
-\BOOKMARK [1][-]{section.2.1}{Cross-section}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.2}{Reaction Equation}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.3}{Reaction Energy Spectrum}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.3.1}{Prompt Gamma-Rays}{section.2.3}% 20
-\BOOKMARK [2][-]{subsection.2.3.2}{Internal Conversion Electrons}{section.2.3}% 21
-\BOOKMARK [2][-]{subsection.2.3.3}{X-rays and Auger Electrons}{section.2.3}% 22
-\BOOKMARK [0][-]{chapter.3}{Semiconductors and Pixel Sensors}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Semiconductors}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{Energy Band Diagram}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{Doped Semiconductors}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.3}{Pn-Junction Diode}{section.3.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.4}{Depletion Region}{section.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.1.5}{Reverse Bias, Charge Collection and Pulse Signal?}{section.3.1}% 29
-\BOOKMARK [1][-]{section.3.2}{Pixel Seonsors and MAPS}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.2.1}{CMOS technology and circuit logic}{section.3.2}% 31
-\BOOKMARK [2][-]{subsection.3.2.2}{Active Pixel Sensors}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.3}{MAPS}{section.3.2}% 33
-\BOOKMARK [1][-]{section.3.3}{Metal Oxide Semiconductor Field-Effect Transistor \(MOSFET\)}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.1}{Structure}{section.3.3}% 35
-\BOOKMARK [2][-]{subsection.3.3.2}{Zero gate-to-source voltage, vGS=0}{section.3.3}% 36
-\BOOKMARK [2][-]{subsection.3.3.3}{Channel formation}{section.3.3}% 37
-\BOOKMARK [2][-]{subsection.3.3.4}{Drain-to-source voltage, vDS>0}{section.3.3}% 38
-\BOOKMARK [0][-]{chapter.4}{The ALPIDE Sensor}{}% 39
-\BOOKMARK [1][-]{section.4.1}{Chip Architecture}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.2}{Radiation Sensitivity}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{About the Thesis}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Thesis Outline}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Citation Principles}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Interactions of Radiaition in Matter}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Neutron Interactions}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Elastic Scattering}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{Inelastic Scattering}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.3}{Neutron Capture}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.4}{Nuclear Spallation}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.5}{Nuclear Fission}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Charged Particle Interactions}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{Heavy charged particles and Bethe-Bloch}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{Electrons}{section.2.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Photon Interactions}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{Photoelectric Absorption}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{Compton Scattering}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{Pair Production }{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.4}{Beam Attenuation}{section.2.3}% 19
+\BOOKMARK [0][-]{chapter.3}{Neutron Detection Principles}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Neutron Conversion}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{Radiation Detectors}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{Gadolinium-Neutron Capture}{}% 23
+\BOOKMARK [1][-]{section.4.1}{Cross-section}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{Reaction Equation}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{Reaction Energy Spectrum}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.3.1}{Prompt Gamma-Rays}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.2}{Internal Conversion Electrons}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.3}{X-rays and Auger Electrons}{section.4.3}% 29
+\BOOKMARK [0][-]{chapter.5}{Semiconductors and Pixel Sensors}{}% 30
+\BOOKMARK [1][-]{section.5.1}{Semiconductors}{chapter.5}% 31
+\BOOKMARK [2][-]{subsection.5.1.1}{Energy Band Diagram}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.2}{Doped Semiconductors}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.3}{The Pn-Junction}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.4}{The Depletion Region}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.5}{Reverse Bias}{section.5.1}% 36
+\BOOKMARK [1][-]{section.5.2}{Pixel Sensors and MAPS}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{CMOS Technology}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.2}{Active Pixel Sensors}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.3}{MAPS}{section.5.2}% 40
+\BOOKMARK [0][-]{chapter.6}{The ALPIDE Sensor}{}% 41
+\BOOKMARK [1][-]{section.6.1}{Chip Layout}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{Pixel Features}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.3}{In-Pixel Front-End Circuit}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.4}{Mode of Operation}{chapter.6}% 45
+\BOOKMARK [0][-]{chapter.7}{Geant4 Simulations}{}% 46
+\BOOKMARK [1][-]{section.7.1}{MC method and Geant4}{chapter.7}% 47
+\BOOKMARK [1][-]{section.7.2}{Detector Geometry}{chapter.7}% 48
+\BOOKMARK [1][-]{section.7.3}{Set-up}{chapter.7}% 49
+\BOOKMARK [1][-]{section.7.4}{Results}{chapter.7}% 50
+\BOOKMARK [0][-]{chapter.8}{Testing}{}% 51
+\BOOKMARK [1][-]{section.8.1}{Cyclotron Radiation Environment}{chapter.8}% 52
+\BOOKMARK [1][-]{section.8.2}{Set-up}{chapter.8}% 53
+\BOOKMARK [1][-]{section.8.3}{Results}{chapter.8}% 54

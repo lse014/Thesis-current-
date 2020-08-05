@@ -1,34 +1,63 @@
 \chapter{The ALPIDE Sensor}
 
-Alice Pixel Detector (ALPIDE) is a monolithic active pixel sensor (MAPS) based on TowerJazz 180nm CMOS technology. The sensor was developed for the upgrade of the Inner Tracking System (ITS) of the ALICE experiment at CERN. High particle rates and densities makes up the ITS environment. Not only capable of handling such environments, the ALPIDE shows great versatility and is also applicable outside of high-energy physics.
-The sensor with its exceptional properties has sparked interests thereof in the field of medical physics. A local pCT research group in Bergen at the Institute of Physics and Technology (IFT), Bergen University is currently working on the design of a proton CT implementing the ALPIDE chip in a…
-
-\section{Chip Architecture}
-ALPIDE is realized on a silicon substrate on which a highly resistive epitaxial layer (sensor active volume) is grown. A potential barrier forms where the heavy doped (P++) substrate and lightly doped (P-) epitaxial layer meet. Electrons (e) are vertically confined by the potential barriers and diffuse laterally across pixels. N-well diodes are the sensing elements and are surrounded by the depletion volume. Moderate reverse bias can be applied to the substrate to increase depletion volume and improve charge collection.
-An important feature is the implementation of a deep p-well which shields n-wells of pMOS transistor from the epitaxial layer. This prohibits diodes and n-wells from competing in charge collection.
-On top of the chip are up to six aluminum metal layers suitable to implement high density and low digital circuits [Abelev 2014].
-One ALPIDE chip holds 512x1024 (row x column) pixels and baseline dimensions are 15x30 cm$^2$ [Abelev 2014]. Pixels are grouped into
-Possible thickness of the epitaxial layer ranges from 18um to 30um. Each pixel (28x28 um$^2$) embodies a diode, a front-end amplifier and shaping stage, a discriminator and a digital section [G. Aglieri].
+Alice Pixel Detector (ALPIDE) is a monolithic active pixel sensor (MAPS) based on TowerJazz 180 nm CMOS technology.
+The sensor was created for the upgrade of the Inner Tracking System (ITS) of the ALICE experiment at CERN.
+Since 2012, several prototypes of the ALPIDE has been developed. []
+The final, optimized chip was validated in 2016 after substantial test-beam campaigns that show performance values beyond the requirements set by the ITS upgrade, listed in table ??. [G.Rinella 2016]
+The chip has a high detection efficiency (>99\%), short deadtime (<10$^-5$ pixel$^-$ event$^-$) and excellent spatial resolution (≈ 5um) for tracking charged particles.
 
 
+\section{Chip Layout}
+ALPIDE measures 15 cm by 30 cm and contains more than five hundred thousand pixels, organized into 512 rows and 1024 columns??. [Abelev 2014 ?].
+Each pixel has a surface area 29.24 μm × 26.88 μm and a sensing diode (diameter ~2 um) who is approximately 100 times smaller than the pixel area.
+The peripheral region (1.2 x 30 mm$^2$) implements analog biasing, control, readout and interfacing functionalities. [G. Rinella 2016]
+The chip is mostly made out of silicon (~40 um thick) and is topped off with ~11um of aluminum.[?]
+A 3D cut-out of the chip is presented in figure ??.
 
-...
-
-
-%new 23/07/2020
-
-One ALPIDE chip is fabricated on a single slab of silicon and holds 512x1024 (row x column) pixels. Baseline dimensions of a chip are 15 cm x 30 cm [Abelev 2014]. A pixel is merely confined to a cubic volume in which all necessary pixel components, diode and readout electronics, are included. In a chip, there are no physical boundaries separating the active volume of pixels. Figure ?? illustrates a three-dimensional cut-out of ALPIDE with four pixels.
-
-Each pixel (28x28 um$^2$) embodies a diode, a front-end amplifier and shaping stage, a discriminator and a digital section [G. Aglieri]. A cross sectional view of a pixel is illustrated in fig ??. The sensor is realized on a silicon substrate on which a highly resistive epitaxial layer (sensor active volume) is grown. Into the epitaxial layer p-wells are placed. A potential barrier forms where the heavily p-doped (P++) substrate and (P+) p-wells meet the lightly p-doped (P-) epitaxial layer. Electrons (e) are vertically confined by the potential barriers and diffuse laterally across pixels.
-
-The ALPIDE chip is based on the 180 nm CMOS technology of TowerJazz. An important design feature is the deep p-well which shields n-wells of pMOS transistor from the active layer. This prohibits diodes and n-wells from competing in collecting electrons. The feature allows the full use of CMOS circuitry, including the pMOS transistors, in the epitaxial layer without imparing charge collection [S. Kushpil (2017)].
-
-N-well diodes are the sensing elements and are surrounded by the depletion volume. Moderate reverse bias can be applied to the substrate in order to increase depletion volume and improve charge collection. [S. Kushpil (2017)]
-Most part of the epitaxial layer is free of electric field. Charge is left to thermally diffuse in the active volume until collected by the diode or it recombines with the atomic structure. Because of this MAPS have slow collection times, approximately 100 ns. [*]
-
-On top of the chip are up to six aluminum metal layers suitable to implement high density and low digital circuits [Abelev 2014]. Possible thickness of the active layer ranges from 18 um to 30 um. The diode has a diameter ~2 um, approximately 100 times smaller than pixel area.
+The pixel matrix is grouped into 32 sections with 16 columns in each (16 col/sect x 32 sect = 512 col).
+During readout, sections are read out simultaneously and columns sequentially. Readout is controlled at the chip periphery.
+For every double-column, there is a dedicated priority encoder.
+Priority encoders are responsible for generating hit pixel addresses and sending said addresses to the periphery.(?)
+An illustration of the chip as a whole is presented in fig?? [pCT He Ions]
 
 
-\section{Radiation Sensitivity}
-For the tracking of charged particles, ALPIDE exhibits an impressively large detection efficiency (>99\%), a low fake hit probability (<10$^{-5}$ pixel $^-1$ event $^{-1}$) and spatial resolution (≈5 um) [F. Colamaria].
-In theory, because of its thin active volume, ALPIDE should be nearly oblivious to crossing photons, especially in the presence of particle radiation of which detection efficiency is comparatively large. It has been shown that ALPIDE sensitivity to 662 keV photons measures below 1 per mil (‰)[F. Colamaria]. As photon interaction becomes less probable for higher energies (as discussed in section ??) so does their probability of being detected. In light of the particle detection efficiency, photon signal contributions are of minor importance, with the exception of measurements in highly intense photon environments, where signal accumulation can become problematic.
+\section{Pixel Features}
+A cross-sectional view of a pixel is illustrated in fig ??.
+The sensor is realized on a silicon substrate on which a highly resistive epitaxial layer (the active volume) is grown.
+The possible thicknesses of the active layer ranges from 18um to 30um.
+
+P-wells are placed into the epitaxial layer.
+A potential barrier forms where the heavily p-doped (P++) substrate and (P+) wells meet the lightly p-doped (P-) epitaxial layer.
+Electrons (e) are vertically confined by the potential barriers and diffuse laterally across pixels.
+
+The ALPIDE chip is based on the 180 nm CMOS technology of TowerJazz.
+An important design feature is the deep p-well which shields n-wells of the pMOS transistor from the active layer.
+This prohibits diodes and n-wells from competing in collecting electrons.
+The feature allows the full use of CMOS circuitry in the epitaxial layer without impairing charge collection [S. Kushpil (2017)].
+
+The n-well diode, i.e. sensing element of the pixel, is surrounded by a depletion volume.
+Moderate reverse bias can be applied to the substrate to increase the depletion volume and improve charge collection. [S. Kushpil (2017)]
+The epitaxial layer is, for the most part, free of electric fields and the charge is left to thermally diffuse in the active volume until it is collected by the diode or recombines with the atomic structure. Because of this, MAPS, in general, have slow collection times of approximately 100ns. [*]
+
+
+
+\section{In-Pixel Front-End Circuit}
+Each pixel (28x28 um$^2$) embodies a collection diode and a front-end circuit.  [G. Aglieri].
+The in-pixel circuit, as shown in fig??, comprises an input stage, an analog front-end and a digital front-end.
+Analog front-end
+When hit by ionizing radiation, the active volume generates electron-hole pairs.
+The generated electron charge accumulates around the collection diode and induces a voltage signal in the input stage (fig.?? (a)).
+The continuous signal travels to the analog front-end where it is shaped and amplified by an amplifier. The amplifier works as a delay line, with a peaking time of ~2us, and enables ALPIDE to be run in trigger mode.
+Also part of the analog front-end circuit is a comparator.
+The comparator has two analog inputs OUT\_A and THR and a digital binary output OUT\_D (0 or 1?).
+If the amplified signal OUT\_A exceeds a fixed threshold voltage THR the comparator outputs a pulse OUT\_D. The period of the output is typically 5-10 us.
+
+The pulse continues to the digital front-end where it encounters a STROBE signal.
+The STROBE signal provides a framing interval (a window) of a few nanometers.
+It is distributed globally to all pixels and can be activated either internally or externally.
+If the pulse from the analog front-end coincides with a window hit information is latched on to one of the three in-pixel memory cells.
+These memory cells are in-pixels data storage elements also known by the collective term multi-event buffer (MEB). MEB can store up to three hits simultaneously, one per buffer (i.e. memory cell).
+
+\section{Mode of Operation}
+Chip operation mode is determined by STROBE trigger settings.
+Continuous mode implements internal triggers while trigger mode relies on external provocation to generate a STROBE signal.
